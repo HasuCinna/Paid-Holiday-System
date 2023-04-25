@@ -1,0 +1,19 @@
+/* 共通スタイルは外に書く */
+
+.l-wrapper {
+  /* background-color: #f2f2f2; */
+  font-family: Arial, sans-serif;
+  color: #ffff;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 796px) { /* pc用スタイル */
+
+
+}
+
+@media screen and (max-width: 795px) { /* sp用スタイル */
+
+
+}

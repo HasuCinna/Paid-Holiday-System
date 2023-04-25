@@ -1,0 +1,58 @@
+/* 共通スタイルは外に書く */
+
+/* ログインフォームのスタイル */
+.p-main__loginForm {
+  width: 400px;
+  margin: 50px auto;
+  background-color: #ffff;
+  border: 1px solid #01BBB3;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #01BBB3;
+  padding: 20px 20px 40px;
+}
+.p-main__loginFormBox {
+  color: #333333;
+}
+.p-main__loginInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.p-main__loginFormSubmit{
+  margin-top: 20px;
+}
+.p-main__loginSubmit {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  background-color: #01BBB3;
+  color: #ffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.p-main__loginSubmit:hover {
+  background-color: #00ACA3;
+}
+.p-main__loginError {
+  color: #ff0000;
+  margin-top: 30px;
+}
+
+
+
+@media screen and (min-width: 796px) { /* pc用スタイル */
+
+
+}
+
+@media screen and (max-width: 795px) { /* sp用スタイル */
+
+
+}
