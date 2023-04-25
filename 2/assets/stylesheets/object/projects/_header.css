@@ -1,0 +1,29 @@
+/* 共通スタイルは外に書く */
+
+.p-header{
+  padding: 0px 5px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.p-header__logoItem{
+  width: 140px;
+}
+.p-header__nameBox{
+  /* margin-left: auto; */
+}
+
+
+@media screen and (min-width: 796px) { /* pc用スタイル */
+  .p-header__nameBox{
+    font-size: 40px;
+  }
+
+}
+
+@media screen and (max-width: 795px) { /* sp用スタイル */
+  .p-header__nameBox{
+    font-size: 30px;
+  }
+
+}
